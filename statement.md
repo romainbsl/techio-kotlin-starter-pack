@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-- Println
+- Variables
 ```kotlin runnable
 // { autofold
 fun main(args: Array<String>) {
@@ -21,6 +21,18 @@ fun main(args: Array<String>) {
     age++
     println(name)
     println(age)
+//{ autofold
+}
+//}
+```
+
+- String
+```kotlin runnable
+// { autofold
+fun main(args: Array<String>) {
+// }
+    val name = "Kotlin"
+    println("Hello, $name")
 //{ autofold
 }
 //}
