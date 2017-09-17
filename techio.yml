@@ -2,5 +2,5 @@ title: Interactive Kotlin Basic Syntax
 plan:
 - title: Welcome
   statement: statement.md
-- title: Kotlin Snippet 2
+- title: Functions
   statement: part2.md
