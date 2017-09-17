@@ -4,3 +4,19 @@ plan:
   statement: parts/welcome.md
 - title: Functions
   statement: parts/functions.md
+- title: Variables
+  statement: file.md
+- title: String templates
+  statement: file.md
+- title: Control expressions
+  statement: file.md
+- title: Loops
+  statement: file.md
+- title: Ranges
+  statement: file.md
+- title: Collections
+  statement: file.md
+- title: Nulesafety and smart casts
+  statement: file.md
+- title: High-Orders function & Lambdas
+  statement: file.md
