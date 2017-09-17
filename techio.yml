@@ -5,18 +5,18 @@ plan:
 - title: Functions
   statement: parts/functions.md
 - title: Variables
-  statement: file.md
+  statement: parts/file.md
 - title: String templates
-  statement: file.md
+  statement: parts/file.md
 - title: Control expressions
-  statement: file.md
+  statement: parts/file.md
 - title: Loops
-  statement: file.md
+  statement: parts/file.md
 - title: Ranges
-  statement: file.md
+  statement: parts/file.md
 - title: Collections
-  statement: file.md
+  statement: parts/file.md
 - title: Nulesafety and smart casts
-  statement: file.md
+  statement: parts/file.md
 - title: High-Orders function & Lambdas
-  statement: file.md
+  statement: parts/file.md
