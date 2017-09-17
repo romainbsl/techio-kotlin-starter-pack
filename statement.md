@@ -22,3 +22,13 @@ fun main(args: Array<String>) {
 //}
 ```
 
+
+- Println
+```kotlin runnable
+val name = "Kotlin"  // can't be changed
+var age = 5          // can be changed
+age++
+println(name)
+println(age)
+```
+
