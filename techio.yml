@@ -1,6 +1,6 @@
-title: Interactive Kotlin Basic Syntax
+title: Interactive Kotlin Basics
 plan:
 - title: Welcome
-  statement: statement.md
+  statement: parts/welcome.md
 - title: Functions
-  statement: part2.md
+  statement: parts/functions.md
