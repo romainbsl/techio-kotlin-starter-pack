@@ -4,7 +4,7 @@ In this playground, you'll find some basics examples that make Kotlin a friendly
 
 # Basics
 
-- `println`
+- Very known `println`
 ```kotlin runnable
 fun main(args: Array<String>) {
     println("Tech.IO is awesome !")
@@ -16,18 +16,12 @@ fun main(args: Array<String>) {
 // { autofold
 fun main(args: Array<String>) {
 // }
-    println("Tech.IO is awesome !")
+    val name = "Kotlin"  // can't be changed
+    var age = 5          // can be changed
+    age++
+    println(name)
+    println(age)
 //{ autofold
 }
 //}
 ```
-
-- Println
-```kotlin runnable
-val name = "Kotlin"  // can't be changed
-var age = 5          // can be changed
-age++
-println(name)
-println(age)
-```
-
