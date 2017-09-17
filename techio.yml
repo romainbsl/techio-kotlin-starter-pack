@@ -5,7 +5,7 @@ plan:
 - title: Functions
   statement: parts/2_functions.md
 - title: Variables
-  statement: parts/file.md
+  statement: parts/3_variables.md
 - title: String templates
   statement: parts/file.md
 - title: Control expressions
