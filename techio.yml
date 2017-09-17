@@ -1,9 +1,9 @@
 title: Interactive Kotlin Basics
 plan:
 - title: Welcome
-  statement: parts/welcome.md
+  statement: parts/1_welcome.md
 - title: Functions
-  statement: parts/functions.md
+  statement: parts/2_functions.md
 - title: Variables
   statement: parts/file.md
 - title: String templates
