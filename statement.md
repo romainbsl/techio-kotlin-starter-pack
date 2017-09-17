@@ -37,6 +37,7 @@ fun main(args: Array<String>) {
 //}
 ```
 
+- Variables
 ``` kotlin runnable
 // { autofold
 fun main(args: Array<String>) {
@@ -45,10 +46,8 @@ fun main(args: Array<String>) {
     val b = 2   // `Int` type is inferred
     val c: Int  // Type required when no initializer is provided
     c = 3       // deferred assignment
-
 //{ autofold
     println("a = $a, b = $b, c = $c")
-
 }
 //}
 ```
