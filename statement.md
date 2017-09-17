@@ -23,9 +23,7 @@ fun main(args: Array<String>) {
 Function with an expression body and inferred return type:
 
 ``` kotlin runnable
-//sampleStart
 fun sum(a: Int, b: Int) = a + b
-//sampleEnd
 
 // { autofold
 fun main(args: Array<String>) {
