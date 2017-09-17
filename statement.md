@@ -4,7 +4,7 @@ In this playground, you'll find some basics examples that make Kotlin a friendly
 
 # Basics
 
-- Println
+- `println`
 ```kotlin runnable
 fun main(args: Array<String>) {
     println("Tech.IO is awesome !")
