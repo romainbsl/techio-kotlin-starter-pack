@@ -22,7 +22,6 @@ fun main(args: Array<String>) {
 //}
 ```
 
-
 - Println
 ```kotlin runnable
 val name = "Kotlin"  // can't be changed
