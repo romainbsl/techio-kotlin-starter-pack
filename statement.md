@@ -5,8 +5,14 @@ In this playground, you'll find some basics examples that make Kotlin a friendly
 ## Defining functions
 
 
-Function having two `Int` parameters with `Int` return type:
 
+<table>
+  <tr>
+    <th>Function having two `Int` parameters with `Int` return type:</th>
+    <th>Function with an expression body and inferred return type:</th>
+  </tr>
+  <tr>
+    <th>
 ``` kotlin runnable
 fun sum(a: Int, b: Int): Int {
     return a + b
@@ -19,9 +25,8 @@ fun main(args: Array<String>) {
 }
 // }
 ```
-
-Function with an expression body and inferred return type:
-
+    </th>
+    <th>
 ``` kotlin runnable
 fun sum(a: Int, b: Int) = a + b
 
@@ -31,6 +36,12 @@ fun main(args: Array<String>) {
 }
 // }
 ```
+</th>
+  </tr>
+</table>
+
+
+
 
 Function returning no meaningful value:
 
