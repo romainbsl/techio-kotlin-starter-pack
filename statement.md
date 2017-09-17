@@ -16,11 +16,10 @@ fun main(args: Array<String>) {
 // { autofold
 fun main(args: Array<String>) {
 // }
-    val name = "Kotlin"  // can't be changed
-    var age = 5          // can be changed
-    age++
-    println(name)
-    println(age)
+val name = "Kotlin"  // can't be changed
+var age = 5          // can be changed
+println(name)
+println(age++)
 //{ autofold
 }
 //}
@@ -36,4 +35,16 @@ fun main(args: Array<String>) {
 //{ autofold
 }
 //}
+```
+
+``` kotlin
+fun main(args: Array<String>) {
+//sampleStart
+    val a: Int = 1  // immediate assignment
+    val b = 2   // `Int` type is inferred
+    val c: Int  // Type required when no initializer is provided
+    c = 3       // deferred assignment
+//sampleEnd
+    println("a = $a, b = $b, c = $c")
+}
 ```
