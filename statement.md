@@ -2,6 +2,19 @@
 
 In this playground, you'll find some basics examples that make Kotlin a friendly companion to play with.
 
+# Defining functions
+# Defining local variables
+# Comments
+# Using string templates
+# Using conditional expressions
+# Using nullable values and checking for `null`
+# Using type checks and automatic casts
+# Using a `for` loop
+# Using a `while` loop
+# Using `when` expression
+# Using ranges
+# Using collections
+
 # Basics
 
 - Very known `println`
