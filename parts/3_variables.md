@@ -1,7 +1,6 @@
 Assign-once (read-only) local variable:
 
 ``` kotlin runnable
-
 // { autofold
 fun main(args: Array<String>) {
 // }
