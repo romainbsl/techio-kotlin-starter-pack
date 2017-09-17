@@ -3,4 +3,4 @@ plan:
 - title: Welcome
   statement: statement.md
 - title: Kotlin Snippet 2
-  statement: statement.md
+  statement: part2.md
