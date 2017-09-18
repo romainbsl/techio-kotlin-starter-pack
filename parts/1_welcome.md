@@ -1,4 +1,18 @@
-In this playground, you'll find some basics examples that make Kotlin a friendly companion to play with.
+In this playground, we'll cover some basics features from the Kotlin language. 
 
-NB: ThisPlayground is wildly inspired by JetBrains documentation https://kotlinlang.org/docs/reference/basic-syntax.html
+- Functions
+- Variables
+- String templates
+- Control expressions
+- Loops
+- Ranges
+- Collections
+- Nulesafety and smart casts
+- High-Orders function & Lambdas
+
+For all this parts we'll find some interactive examples that make Kotlin a friendly companion to play with. 
+
+The idea is born from the desire to share some knowledge about Kotlin and the wish to use a nice platform as tech.io.
+
+NB: This Playground is wildly inspired by the [Kotlin documentation](https://kotlinlang.org/docs/reference/basic-syntax.html)
 
