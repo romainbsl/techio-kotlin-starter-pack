@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
 In Kotlin, IF becomes an expression, that means that it cans return values
 ``` kotlin runnable
 fun max(a: Int, b: Int) = if (a > b) a else b
+
 // { autofold
 fun main(args: Array<String>) {
     println("max of 0 and 42 is ${max(0, 42)}")
@@ -37,7 +38,7 @@ fun describe(obj: Any): String =
       is Cat -> "This is a cat: $obj, ${obj.color}"
       is Animal -> "This is an aniaml: $obj"
       else -> "Unknown"
-    }
+}
 // { autofold
 open class Animal(val name: String) {
   override fun toString(): String {
