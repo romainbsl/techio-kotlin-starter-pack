@@ -1,4 +1,4 @@
-Assign-once (read-only) local variable:
+Immutable (read-only) variable:
 
 ``` kotlin runnable
 // { autofold
@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 // }
 ```
 
-Mutable variable:
+Mutable (read/write) variable:
 
 ``` kotlin runnable
 // { autofold
@@ -23,7 +23,6 @@ fun main(args: Array<String>) {
 //}
     var x = 5 // `Int` type is inferred
     x += 1
-
 // { autofold
     println("x = $x")
 }
