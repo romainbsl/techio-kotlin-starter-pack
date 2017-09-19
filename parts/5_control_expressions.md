@@ -54,11 +54,6 @@ fun main(args: Array<String>) {
   println(describe(Dog("Rex", 9.2)))
   println(describe(Cat("Felix", "White")))
   println(describe(Snake("Dr Snake")))
-  println(describe(1))
-  println(describe("Hello"))
-  println(describe(1000L))
-  println(describe(2))
-  println(describe("other"))
 }
 //}
 ```
