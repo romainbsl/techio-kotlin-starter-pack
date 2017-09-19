@@ -11,7 +11,7 @@ plan:
 - title: Control expressions
   statement: parts/5_control_expressions.md
 - title: Loops
-  statement: parts/file.md
+  statement: parts/6_loops.md
 - title: Ranges
   statement: parts/file.md
 - title: Collections
