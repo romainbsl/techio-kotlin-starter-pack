@@ -58,5 +58,5 @@ fun main(args: Array<String>) {
   println(describe(2))
   println(describe("other"))
 }
-// ]
+// }
 ```
