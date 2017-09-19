@@ -7,7 +7,7 @@ plan:
 - title: Variables
   statement: parts/3_variables.md
 - title: String templates
-  statement: parts/file.md
+  statement: parts/4_string_templates.md
 - title: Control expressions
   statement: parts/file.md
 - title: Loops
