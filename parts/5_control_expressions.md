@@ -34,8 +34,8 @@ You can use `when` to evaluate objects.
 ``` kotlin runnable
 fun describe(obj: Any): String =
     when (obj) {
-      is Dog -> "This is a dog: $obj, ${obj.weight}"
-      is Cat -> "This is a cat: $obj, ${obj.color}"
+      is Dog -> "This is a dog: $obj, his weight is ${obj.weight}"
+      is Cat -> "This is a cat: $obj, his color is ${obj.color}"
       is Animal -> "This is an aniaml: $obj"
       else -> "Unknown"
 }
