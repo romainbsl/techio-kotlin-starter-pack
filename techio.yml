@@ -9,7 +9,7 @@ plan:
 - title: String templates
   statement: parts/4_string_templates.md
 - title: Control expressions
-  statement: parts/file.md
+  statement: parts/5_control_expressions.md
 - title: Loops
   statement: parts/file.md
 - title: Ranges
