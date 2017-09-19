@@ -33,8 +33,8 @@ You can use `when` to evaluate objects.
 ``` kotlin runnable
 fun describe(obj: Any): String =
     when (obj) {
-      is Dog -> "This is a dog: $obj"
-      is Cat -> "This is a cat: $obj"
+      is Dog -> "This is a dog: $obj, ${obj.wieght}"
+      is Cat -> "This is a cat: $obj, ${obj.color}"
       is Animal -> "This is an aniaml: $obj"
       else -> "Unknown"
     }
@@ -58,5 +58,5 @@ fun main(args: Array<String>) {
   println(describe(2))
   println(describe("other"))
 }
-// }
+//}
 ```
