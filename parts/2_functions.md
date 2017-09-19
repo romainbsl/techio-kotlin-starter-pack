@@ -1,40 +1,47 @@
-Function having two `Int` parameters with `Int` return type:
+Function having one `String` parameter with `String` return type:
 
 ``` kotlin runnable
-fun sum(a: Int, b: Int): Int {
-    return a + b
+fun hello(s: String): String {
+    return "Hello, $s !"
 }
-
 // { autofold
 fun main(args: Array<String>) {
-    print("sum of 3 and 5 is ")
-    println(sum(3, 5))
+    print(hello("Kotlin")
 }
 // }
 ```
 
-Function with an expression body and inferred return type:
+Function with expression body:
 
 ``` kotlin runnable
-fun sum(a: Int, b: Int) = a + b
-
+fun hello(s: String) : String = "Hello, $s !"
 // { autofold
 fun main(args: Array<String>) {
-    println("sum of 19 and 23 is ${sum(19, 23)}")
+    println(hello("My name is Bond, James Bond")
 }
 // }
 ```
 
-Function returning no meaningful value:
+Function with expression body and inferred return type:
 
 ``` kotlin runnable
-fun printSum(a: Int, b: Int): Unit {
-    println("sum of $a and $b is ${a + b}")
-}
-
+fun hello(s: String) = "Hello, $s !"
 // { autofold
 fun main(args: Array<String>) {
-    printSum(-1, 8)
+    println(hello("Mr Bond")
+}
+// }
+```
+
+Function with no return value (Equivalent to Java's `void`):
+
+``` kotlin runnable
+fun printHello(s: String): Unit {
+    println("Hello, $s !")
+}
+// { autofold
+fun main(args: Array<String>) {
+    printHello("Tech.IO")
 }
 // }
 ```
@@ -42,13 +49,12 @@ fun main(args: Array<String>) {
 `Unit` return type can be omitted:
 
 ``` kotlin runnable
-fun printSum(a: Int, b: Int) {
-    println("sum of $a and $b is ${a + b}")
+fun printHello(s: String) {
+    println("Hello, $s !")
 }
-
 // { autofold
 fun main(args: Array<String>) {
-    printSum(-1, 8)
+    printHello("Tech.IO ! you're awesome ")
 }
 // }
 ```
