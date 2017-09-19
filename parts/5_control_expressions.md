@@ -39,6 +39,7 @@ fun describe(obj: Any): String =
       is Animal -> "This is an aniaml: $obj"
       else -> "Unknown"
 }
+
 // { autofold
 open class Animal(val name: String) {
   override fun toString(): String {
