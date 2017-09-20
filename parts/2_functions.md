@@ -6,7 +6,7 @@ fun hello(s: String): String {
 }
 // { autofold
 fun main(args: Array<String>) {
-    print(hello("Kotlin")
+    print(hello("Kotlin"))
 }
 // }
 ```
@@ -17,7 +17,7 @@ Function with expression body:
 fun hello(s: String) : String = "Hello, $s !"
 // { autofold
 fun main(args: Array<String>) {
-    println(hello("My name is Bond, James Bond")
+    println(hello("My name is Bond, James Bond"))
 }
 // }
 ```
@@ -28,7 +28,7 @@ Function with expression body and inferred return type:
 fun hello(s: String) = "Hello, $s !"
 // { autofold
 fun main(args: Array<String>) {
-    println(hello("Mr Bond")
+    println(hello("Mr Bond"))
 }
 // }
 ```
