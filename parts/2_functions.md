@@ -28,7 +28,7 @@ Function with expression body and inferred return type:
 fun hello(s: String) = "Hello, $s !"
 // { autofold
 fun main(args: Array<String>) {
-    println(hello("Mr Bond")
+    println(hello("Mr Bond"))
 }
 // }
 ```
