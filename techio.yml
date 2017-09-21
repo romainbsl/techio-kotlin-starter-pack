@@ -13,7 +13,7 @@ plan:
 - title: Loops
   statement: parts/6_loops.md
 - title: Ranges
-  statement: parts/file.md
+  statement: parts/7_ranges.md
 - title: Collections
   statement: parts/file.md
 - title: Nulesafety and smart casts
