@@ -6,7 +6,7 @@ fun hello(s: String): String {
 }
 // { autofold
 fun main(args: Array<String>) {
-    print(hello("Kotlin")
+    print(hello("Kotlin"))
 }
 // }
 ```
