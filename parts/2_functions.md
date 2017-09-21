@@ -17,7 +17,7 @@ Function with expression body:
 fun hello(s: String) : String = "Hello, $s !"
 // { autofold
 fun main(args: Array<String>) {
-    println(hello("My name is Bond, James Bond")
+    println(hello("My name is Bond, James Bond"))
 }
 // }
 ```
