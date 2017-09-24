@@ -56,11 +56,11 @@ fun main(args: Array<String>) {
   // forearch with indexes
   numbers.forEachIndexed { index, it -> println("At index $index there is $it") }
   // first()
-  println(numbers.first())
+  println("numbers' first is: ${numbers.first()}")
   // last
-  println(numbers.last())
+  println("numbers' last is: ${numbers.last()}")
   // sum
-  println(numbers.sum())
+  println("numbers' sum is: ${numbers.sum()}")
   // etc.
 // { autofold
 }
