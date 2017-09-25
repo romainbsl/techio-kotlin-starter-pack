@@ -18,5 +18,3 @@ plan:
   statement: parts/8_collections.md
 - title: Null safety
   statement: parts/9_nullsafe.md
-#- title: High-Orders function & Lambdas
-#  statement: parts/file.md
