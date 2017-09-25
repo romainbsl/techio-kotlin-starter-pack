@@ -16,7 +16,7 @@ plan:
   statement: parts/7_ranges.md
 - title: Collections
   statement: parts/8_collections.md
-#- title: Nulesafety and smart casts
-#  statement: parts/file.md
+- title: Null safety
+  statement: parts/9_nullsafe.md
 #- title: High-Orders function & Lambdas
 #  statement: parts/file.md
