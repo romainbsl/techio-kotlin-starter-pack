@@ -8,7 +8,6 @@ In this playground, we'll cover some basics features from the Kotlin language.
 - Ranges
 - Collections
 - Null safety
-- High-Orders function & Lambdas
 
 For all this parts we'll find some interactive examples that make Kotlin a friendly companion to play with. 
 
