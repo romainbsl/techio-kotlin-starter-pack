@@ -1,20 +1,20 @@
-title: Interactive Kotlin Basics
+title: Kotlin Starter Pack
 plan:
-- title: Welcome
+- title: About this playground
   statement: parts/1_welcome.md
-- title: Functions
-  statement: parts/2_functions.md
-- title: Variables
-  statement: parts/3_variables.md
-- title: String templates
-  statement: parts/4_string_templates.md
-- title: Control expressions
-  statement: parts/5_control_expressions.md
-- title: Loops
-  statement: parts/6_loops.md
-- title: Ranges
-  statement: parts/7_ranges.md
-- title: Collections
-  statement: parts/8_collections.md
-- title: Null safety
-  statement: parts/9_nullsafe.md
+#- title: Functions
+#  statement: parts/2_functions.md
+#- title: Variables
+#  statement: parts/3_variables.md
+#- title: String templates
+#  statement: parts/4_string_templates.md
+#- title: Control expressions
+#  statement: parts/5_control_expressions.md
+#- title: Loops
+#  statement: parts/6_loops.md
+#- title: Ranges
+#  statement: parts/7_ranges.md
+#- title: Collections
+#  statement: parts/8_collections.md
+#- title: Null safety
+#  statement: parts/9_nullsafe.md
