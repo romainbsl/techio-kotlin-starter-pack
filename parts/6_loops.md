@@ -20,7 +20,7 @@ for (aniaml in animals) {
 fun main(args: Array<String>) {
 //}
 val animals = listOf("dog", "cat", "snake")
-for ((animal, index) in animals.withIndex()) {
+for ((index, animal) in animals.withIndex()) {
   println("animal at $index is $animal")
 }
 // { autofold
