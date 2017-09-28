@@ -9,6 +9,9 @@ I'll describe the following features as clearly as possible:
   - Control expressions
   - Loops
 - Classes
+  - Inheritance
+  - Data Classes
+  - Sealed Classes
 - Functions
   - High-Orders functions
   - Lambdas
