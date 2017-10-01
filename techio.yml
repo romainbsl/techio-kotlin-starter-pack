@@ -4,6 +4,8 @@ plan:
   statement: parts/0_welcome.md
 - title: Basics
   statement: parts/1_basics.md
+- title: Classes
+  statement: parts/2_classes.md
 #- title: Functions
 #  statement: parts/2_functions.md
 #- title: Variables
