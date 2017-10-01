@@ -1,7 +1,9 @@
 title: Kotlin Starter Pack
 plan:
 - title: About this playground
-  statement: parts/1_welcome.md
+  statement: parts/0_welcome.md
+- title: Basics
+  statement: parts/1_basics.md
 #- title: Functions
 #  statement: parts/2_functions.md
 #- title: Variables
