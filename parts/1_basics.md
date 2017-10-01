@@ -1,6 +1,7 @@
 In this section you'll find some basics syntax to start coding with Kotlin.
 
 #### Variables
+
 Kotlin provides two way to declare variable.
 
 - Immutable (read-only) variable:
@@ -23,9 +24,18 @@ c = 3
 
 - Mutable (read/write) variable:
 
-``` kotlin
+Using the keyword `var` allow you to declare mutable variable.
+
+``` kotlin runnable
+// { autofold
+fun main(args: Array<String>) {
+// }
 var x = 5 // `Int` type is inferred
 x += 1 // x now is equals to 6
+// { autofold
+    println(x)
+}
+// }
 ```
 
 #### String templates
@@ -68,7 +78,25 @@ val str2 = "${str.replace("Hello", "Welcome on this playground")}"
 
 #### Control expressions
 
+##### `if` statement becomes an expression
 
+``` kotlin runnable
+fun max(a: Int, b: Int): Int {
+    if (a > b) {
+        return a
+    } else {
+        return b
+    }
+}
+// { autofold
+fun main(args: Array<String>) {
+    println("max of 0 and 42 is ${max(0, 42)}")
+}
+//}
+```
+
+
+##### `when` expression
 
 #### Loops
 
