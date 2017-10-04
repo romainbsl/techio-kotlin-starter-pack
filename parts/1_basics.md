@@ -251,10 +251,10 @@ for ((animal, index) in animals.withIndex()) {
 // { autofold
 fun main(args: Array<String>) {
 //}
-val aniamls = listOf("dog", "cat", "snake")
+val animals = listOf("dog", "cat", "snake")
 var index = 0
-while (index < aniamls.size) {
-    println("animal at $index is ${aniamls[index]}")
+while (index < animals.size) {
+    println("animal at $index is ${animals[index]}")
     index++
 }
 // { autofold
