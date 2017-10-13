@@ -8,7 +8,7 @@ As in Java or C#, classes are declared with the keyword `class`
 class Book {}
 ```
 
-> You'ra allowed to omit curly braces if class is empty
+> You're allowed to omit curly braces if class is empty
 
 ```kotlin
 class Book
@@ -111,8 +111,8 @@ In opposition to Java, the `override` keyword is mandatory.
 
 ```kotlin
 open class Animal(val name: String) {
-  fun eat() {} // can't be overriden
-  open fun walk() {} // can be overriden
+  fun eat() {} // can't be overridden
+  open fun walk() {} // can be overridden
 }
 class Dog(name: String): Animal(name) {
   override fun walk() {}
@@ -150,7 +150,7 @@ fun main(args: Array<String>) {
 
 ### Sealed Classes
 
-Kotlin introduced an other type of class, `sealeed class`. A sealed class, is a class that can be inherit by a 
+Kotlin introduced an other type of class, `sealed class`. A sealed class, is a class that can be inherit by a 
 restricted class set. By definition a sealed class is `abstract`, that means it can't be directly instantiate.
 All derived classes have to be in the same file than the sealed class.
 

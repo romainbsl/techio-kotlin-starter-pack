@@ -53,7 +53,7 @@ You may find more into the Kotlin documentation.
 fun main(args: Array<String>) {
 //}
   val numbers = listOf(1, 2, 3)
-  // forearch with indexes
+  // foreach with indexes
   numbers.forEachIndexed { index, it -> println("At index $index there is $it") }
   // first()
   println("numbers' first is: ${numbers.first()}")
