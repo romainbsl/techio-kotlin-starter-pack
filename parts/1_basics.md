@@ -45,7 +45,7 @@ x += 1 // x now is equals to 6
 
 ### String templates
 
-String are made easier with Kotlin, more convinient to use, and more readable.
+String are made easier with Kotlin, more convenient to use, and more readable.
 
 > Simple templates
 
@@ -183,7 +183,7 @@ fun describe(obj: Any) {
     1, 2, 3, 4 -> "I'm a Fantastic !"
     is Dog -> "This is a dog: $obj, his weight is ${obj.weight}"
     is Cat -> "This is a cat: $obj, his color is ${obj.color}"
-    is Animal -> "This is an aniaml: $obj"
+    is Animal -> "This is an animal: $obj"
     else -> "Sorry, I can't match $obj yet"
   })
 }
@@ -220,15 +220,15 @@ fun main(args: Array<String>) {
 fun main(args: Array<String>) {
 //}
 val animals = listOf("dog", "cat", "snake")
-for (aniaml in animals) {
-    println(aniaml)
+for (animal in animals) {
+    println(animal)
 }
 // { autofold
 }
 //}
 ```
 
-A combination of Kotlin's features, makes `for` even more convinient. By desctructuring we can iterate over a collection with indexes:
+A combination of Kotlin's features, makes `for` even more convenient. By destructuring we can iterate over a collection with indexes:
 
 ``` kotlin runnable
 // { autofold
@@ -251,10 +251,10 @@ for ((animal, index) in animals.withIndex()) {
 // { autofold
 fun main(args: Array<String>) {
 //}
-val aniamls = listOf("dog", "cat", "snake")
+val animals = listOf("dog", "cat", "snake")
 var index = 0
-while (index < aniamls.size) {
-    println("animal at $index is ${aniamls[index]}")
+while (index < animals.size) {
+    println("animal at $index is ${animals[index]}")
     index++
 }
 // { autofold
