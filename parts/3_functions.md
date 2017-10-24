@@ -2,28 +2,38 @@
 
 In Kotlin function are define by the keyword `fun`.
 
-You can declare a function like this
+You can declare a function like this:
+
 ```kotlin runnable
 fun myFirstFunction() {
   println("My first function")
 }
-```
-
-
-### Function having one `String` parameter with `String` return type:
-
-``` kotlin runnable
-fun hello(s: String): String {
-    return "Hello, $s !"
-}
 // { autofold
 fun main(args: Array<String>) {
-    print(hello("Kotlin"))
+  myFirstFunction()
 }
 // }
 ```
 
-### Function with expression body:
+#### Function with parameters
+
+Here is a function that accept one `String` parameter and return an `Int`:
+
+``` kotlin runnable
+fun lenght(s: String): Int {
+    return s.lenght
+}
+// { autofold
+fun main(args: Array<String>) {
+    print(lenght("Kotlin"))
+}
+// }
+```
+
+#### Function with expression body:
+
+For simple and concise functions that returns values, we can replace the block body (between curly braces) by an 
+expression body, with a single `=`:
 
 ``` kotlin runnable
 fun hello(s: String) : String = "Hello, $s !"
@@ -34,18 +44,13 @@ fun main(args: Array<String>) {
 // }
 ```
 
-### Function with expression body and inferred return type:
-
-``` kotlin runnable
+You also can omit the return type by writing:
+ 
+``` kotlin
 fun hello(s: String) = "Hello, $s !"
-// { autofold
-fun main(args: Array<String>) {
-    println(hello("Mr Bond"))
-}
-// }
 ```
 
-### Function with no return value (Equivalent to Java's `void`):
+#### Function with no return value (Equivalent to Java's `void`):
 
 ``` kotlin runnable
 fun printHello(s: String): Unit {
@@ -58,16 +63,10 @@ fun main(args: Array<String>) {
 // }
 ```
 
-### `Unit` return type can be omitted:
+As any return type, `Unit` can be omitted:
 
-``` kotlin runnable
+``` kotlin
 fun printHello(s: String) {
     println("Hello, $s !")
 }
-// { autofold
-fun main(args: Array<String>) {
-    printHello("Tech.IO ! you're awesome ")
-}
-// }
 ```
-
