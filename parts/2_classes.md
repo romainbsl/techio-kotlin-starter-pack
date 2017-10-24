@@ -184,3 +184,24 @@ fun main(args: Array<String>) {
 ```
 
 For more details on `sealed class` please check at the [Simon Wirst's playground](https://tech.io/playgrounds/6539/kotlin-sealed-classes-in-action)
+
+### Visibility
+
+Finally, there is some differences between Kotlin and Java when it comes to visibility.
+
+#### For the packages (top-level functions/properties)
+
+- By default, the visibility is `public`, which means that your declaration is visible from everywhere.
+- In the contrary, a declaration made `private` will be visible inside the file containing it.
+- In Kotlin, there is a new visibility modifiers, `internal`, set the declaration as visible everywhere in the same 
+module.
+
+> there is no `protected` visibility modifiers for top-level declarations
+
+#### For the classes
+
+- if you mark a class member as `private`, it will be visible inside this class only.
+- if you mark a class member as `protected`, it will be visible inside this class and subclasses
+- if you mark a class member as `internal`, it will be visible from any code inside this module (IntelliJ IDEA / 
+Maven / Gradle...)
+- if you mark a class member as `public`, it will be visible everywhere.
