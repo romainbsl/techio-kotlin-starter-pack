@@ -29,7 +29,7 @@ c = 3
 
 - Mutable (read/write) variable:
 
-Using the keyword `var` allow you to declare mutable variable.
+Using the keyword `var` allow you to declare mutable variables.
 
 ``` kotlin runnable
 // { autofold
@@ -62,7 +62,8 @@ val str = "Hello, $name !" // prints "Hello, Kotlin !"
 // }
 ```
 
-Here is a more interesting part. You may be able to invoke piece of code inside a template, avoiding lots of boilerplate code.
+Here is a more interesting part. You may be able to invoke piece of code inside a template, avoiding lots of 
+boilerplate code.
 
 >String manipulation
 
@@ -126,7 +127,8 @@ fun main(args: Array<String>) {
 //}
 ```
 
-In Kotlin, `if` can be an expression, that means that you can assign a variable or return the `if` directly. Previous snippet can be write as follow
+In Kotlin, `if` can be an expression, that means that you can assign a variable or return the `if` directly. 
+Previous snippet can be write as follow.
 
 ``` kotlin runnable
 fun max(a: Int, b: Int): Int {
@@ -147,7 +149,8 @@ fun max(a: Int, b: Int) = if (a > b) a else b
 
 #### `when` expression
 
-If you were familiar to the `switch`statement from other language like Java, you won't find it in Kotlin. It has been replaced by the `when` expression.
+If you were familiar to the `switch` statement from other language like Java, you won't find it in Kotlin. It has 
+been replaced by the `when` expression.
 
 You can use `when` to evaluate objects and return a result.
 
@@ -170,7 +173,8 @@ fun main(args: Array<String>) {
 // }
 ```
 
-To go further, `when` allow you to make some condition by mixing values, ranges, Types, etc. The `when` expression will try to match with every branches sequentially and stop at the first satisfied condition.
+To go further, `when` allow you to make some condition by mixing values, ranges, Types, etc. The `when` expression will 
+try to match with every branches sequentially and stop at the first satisfied condition.
 
 ``` kotlin runnable
 fun describe(obj: Any) {
@@ -209,6 +213,15 @@ fun main(args: Array<String>) {
 // }
 ```
 
+A third one, you can use `when` without any input value, like in this snippet.
+
+```kotlin
+when {
+  obj1 is Person -> goToRestaurant()
+  obj2 is Animal -> feedTheDog()
+}
+``` 
+
 ### Loops
 
 #### For loops
@@ -228,7 +241,8 @@ for (aniaml in animals) {
 //}
 ```
 
-A combination of Kotlin's features, makes `for` even more convinient. By desctructuring we can iterate over a collection with indexes:
+A combination of Kotlin's features, makes `for` even more convinient. By desctructuring we can iterate over a 
+collection with indexes:
 
 ``` kotlin runnable
 // { autofold
