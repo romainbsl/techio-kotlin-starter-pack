@@ -8,7 +8,7 @@ As in Java or C#, classes are declared with the keyword `class`
 class Book {}
 ```
 
-> You'ra allowed to omit curly braces if class is empty
+> You're allowed to omit curly braces if class is empty
 
 ```kotlin
 class Book
@@ -23,13 +23,13 @@ In Kotlin, a class can have a primary constructor and many secondary constructor
 A primary constructor is part of the class header declaration.
 
 ```kotlin
-class Book constructor(author: String){}
+class Book constructor(author: String) {}
 ```
 
 Any many cases `constructor` keyword can be omitted. 
 
 ```kotlin
-class Book(author: String){}
+class Book(author: String) {}
 ```
 
 Primary constructor can't contains any logic. To help with that you can declare an `init` block.
@@ -95,7 +95,7 @@ var name: String
 
 In Kotlin:
 - all types are derived from `Any`.
-- classes are `final` by default, that means if you to inherit from a class, it has to be `open`.
+- classes are `final` by default, that means if you need to inherit from a class, it has to be `open`.
 
 ```kotlin
 open class Animal(val name: String)
@@ -146,12 +146,12 @@ fun main(args: Array<String>) {
 // }
 ```
 
-> Since v1.1 data class can inherit from other classes, but still can't be inherited
+> **Tips**: Since v1.1, data class can inherit from other classes, but still can't be inherited
 
 ### Sealed Classes
 
 Kotlin introduced an other type of class, `sealeed class`. A sealed class, is a class that can be inherit by a 
-restricted class set. By definition a sealed class is `abstract`, that means it can't be directly instantiate.
+restricted class set. By definition, a sealed class is `abstract`, that means it can't be directly instantiate.
 All derived classes have to be in the same file than the sealed class.
 
 ```kotlin
@@ -160,7 +160,7 @@ data class Const(val number: Double) : ArithmeticExpression()
 data class Sum(val left: ArithmeticExpression, val right: ArithmeticExpression) : ArithmeticExpression()
 ```
 
-According the below snippet, you should be able to evaluate an `ArithmeticExpression` without having to implement a 
+Accordingto the below snippet, you should be able to evaluate an `ArithmeticExpression` without having to implement a 
 fallback.
 
 ```kotlin runnable
