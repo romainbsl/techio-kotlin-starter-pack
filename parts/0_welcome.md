@@ -19,7 +19,8 @@ I'll describe the following features as clearly as possible:
   - Data Classes
   - Sealed Classes
   - Visibility
-- Functions
+- Functions Basics
+- Functions Extended
   - High-Orders functions
   - Lambdas
   - Inline functions
