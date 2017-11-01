@@ -20,16 +20,16 @@ I'll describe the following features as clearly as possible:
   - Sealed Classes
   - Visibility
 - Functions Basics
-- Functions Extended
-  - High-Orders functions
-  - Lambdas
-  - Inline functions
+- Nullability
+- Java interoperability
+- Type Checks and Smart Casts
 - Collections
 - Ranges
-- Null safety
-- Type Checks and Smart Casts
 - Operator overloading
-- Java interoperability 
+- Functions Extended
+  - High-Order functions
+  - Lambdas
+  - Inline functions
 
 For all this parts you'll find some explanation, flat code and nice interactive examples, that will 
 show how Kotlin is a friendly companion to play with. 
