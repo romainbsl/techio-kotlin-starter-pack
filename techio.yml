@@ -10,8 +10,8 @@ plan:
   statement: parts/3_functions.md
 - title: Nullability
   statement: parts/4_nullability.md
-#- title: Java interoperability
-#  statement: parts/5_java_interop.md
+- title: Java interoperability
+  statement: parts/5_java_interop.md
 #- title: Type Checks and Smart Casts
 #  statement: parts/6_type_inference.md
 #- title: Collections
