@@ -16,9 +16,9 @@ plan:
   statement: parts/6_types_and_casts.md
 - title: Collections
   statement: parts/7_collections.md
-#- title: Ranges
-#  statement: parts/8_ranges.md
-#- title: Operator overloading
-#  statement: parts/9_operator_overloading.md
+- title: Ranges
+  statement: parts/8_ranges.md
+- title: Operator overloading
+  statement: parts/9_operator_overloading.md
 #- title: Functions Extended
 #  statement: parts/10_functions_ext.md

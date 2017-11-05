@@ -1,3 +1,9 @@
+### Ranges 
+
+Kotlin provide a way to deal with value ranges, so you might be able to simply create and manipulate ranges 
+effortlessly.
+
+
 Control if a value belong or not to a range of elements.
 
 ``` kotlin runnable
@@ -11,8 +17,9 @@ if (i in 1..10) { // equivalent of 1 <= i && i <= 10
 }
 fun main(args: Array<String>) {
   checkRange(1)
-  checkRange(2)
-  checkRange(3)
+  checkRange(5)
+  checkRange(7)
+  checkRange(11)
 }
 //}
 ```
