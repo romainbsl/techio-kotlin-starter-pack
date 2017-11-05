@@ -26,3 +26,7 @@ the extension function.
 
 Plus, to provide such interoperability, Kotlin is often built upon the Java API to help you reuse your dependencies 
 without refactoring everything (e.g. Kotlin's collection are built on top of Java's) collections.
+
+If you want more details about Java interoperability, feel free to check out the documentation :
+- [Calling Java code from Kotlin](https://kotlinlang.org/docs/reference/java-interop.html)
+- [Calling Kotlin from Java](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html)
