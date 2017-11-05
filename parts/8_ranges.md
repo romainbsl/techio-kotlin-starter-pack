@@ -55,7 +55,9 @@ Iterating over ranges ... step by step
 fun main(args: Array<String>) {
 //}  
 for (i in 1..10 step 2) print(i)
-// { autofold println() }
+// { autofold 
+println() 
+// }
 for (i in 10 downTo 1 step 2) print(i)
 // { autofold
 }
