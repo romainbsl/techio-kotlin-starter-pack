@@ -14,8 +14,8 @@ plan:
   statement: parts/5_java_interop.md
 - title: Type inference, checks and smart casts
   statement: parts/6_types_and_casts.md
-#- title: Collections
-#  statement: parts/7_collections.md
+- title: Collections
+  statement: parts/7_collections.md
 #- title: Ranges
 #  statement: parts/8_ranges.md
 #- title: Operator overloading
