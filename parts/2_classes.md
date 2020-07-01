@@ -181,9 +181,10 @@ fun main(args: Array<String>) {
       }")
 }
 
-sealed class ArithmeticExpression 
-data class Const(val number: Double) : ArithmeticExpression()
-data class Sum(val left: ArithmeticExpression, val right: ArithmeticExpression) : ArithmeticExpression()
+sealed class ArithmeticExpression {
+    data class Const(val number: Double) : ArithmeticExpression()
+    data class Sum(val left: ArithmeticExpression, val right: ArithmeticExpression) : ArithmeticExpression()
+}
 // }
 ```
 
