@@ -153,7 +153,7 @@ infix fun Int.add(value: Int) = this + value
 
 fun main(args: Array<String>) {
   print("1 add 1 = ")
-  println(1.add(1))
+  println(1 add 1)
   println("is the same as: ")
   print("1.add(1) = ")
   println(1.add(1))
