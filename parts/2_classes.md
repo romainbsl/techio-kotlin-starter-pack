@@ -26,13 +26,13 @@ A primary constructor is part of the class header declaration.
 class Book constructor(author: String) {}
 ```
 
-Any many cases `constructor` keyword can be omitted. 
+In many cases `constructor` keyword can be omitted. 
 
 ```kotlin
 class Book(author: String) {}
 ```
 
-Primary constructor can't contains any logic. To help with that you can declare an `init` block.
+Primary constructor can't contain any logic. To handle that you may declare an `init` block.
 
 ```kotlin  runnable
 class Book(author: String){
@@ -123,7 +123,7 @@ class Dog(name: String): Animal(name) {
 
 In every languages, when you want to create object that carry data, you always have to write boilerplate code to 
 compare, print or even duplicate objects.
-To get rid of that, Kotlin introduce the `data class` concept.
+To get rid of that, Kotlin introduces the `data class` concept.
 
 According to the following snippet, in one line, the compiler will create extra members as:
 
@@ -150,8 +150,8 @@ fun main(args: Array<String>) {
 
 ### Sealed Classes
 
-Kotlin introduced an other type of class, `sealeed class`. A sealed class, is a class that can be inherit by a 
-restricted class set. By definition, a sealed class is `abstract`, that means it can't be directly instantiate.
+Kotlin introduced an other type of class, `sealed class`. A sealed class, is a class that can be inherited by a 
+restricted class set. By definition, a sealed class is `abstract`, that means it can't be directly instantiated.
 All derived classes have to be in the same file than the sealed class.
 
 ```kotlin
@@ -160,7 +160,7 @@ data class Const(val number: Double) : ArithmeticExpression()
 data class Sum(val left: ArithmeticExpression, val right: ArithmeticExpression) : ArithmeticExpression()
 ```
 
-Accordingto the below snippet, you should be able to evaluate an `ArithmeticExpression` without having to implement a 
+According to the below snippet, you should be able to evaluate an `ArithmeticExpression` without having to implement a 
 fallback.
 
 ```kotlin runnable
@@ -192,13 +192,13 @@ For more details on `sealed class` please check at the [Simon Wirst's playground
 
 ### Visibility
 
-Finally, there is some differences between Kotlin and Java when it comes to visibility.
+Finally, there are some differences between Kotlin and Java when it comes to visibility.
 
 #### For the packages (top-level functions/properties)
 
 - By default, the visibility is `public`, which means that your declaration is visible from everywhere.
-- In the contrary, a declaration made `private` will be visible inside the file containing it.
-- In Kotlin, there is a new visibility modifiers, `internal`, set the declaration as visible everywhere in the same 
+- On the contrary, a declaration made `private` will be visible only inside the file containing it.
+- In Kotlin, there is a new visibility modifier, `internal`, set the declaration as visible everywhere in the same 
 module.
 
 > there is no `protected` visibility modifiers for top-level declarations
