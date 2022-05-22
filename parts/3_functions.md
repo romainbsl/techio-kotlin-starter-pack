@@ -1,6 +1,6 @@
 ### It's all about `fun` !
 
-In Kotlin function are define by the keyword `fun`.
+In Kotlin functions are define by the keyword `fun`.
 
 You can declare a function like this:
 
@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 
 #### Function with parameters
 
-Here is a function that accept one `String` parameter and return an `Int`:
+Here is a function that accepts one `String` parameter and returns an `Int`:
 
 ``` kotlin runnable
 fun lenght(s: String): Int {
@@ -91,7 +91,7 @@ public void Constructor(String arg1, String arg2, String arg3) {
 Kotlin allow you to write the same code more concisely:
 
 ```kotlin
-fun Constructor(arg1 : String, arg2 : String? = null, arg3 : String? = null) {
+constructor(arg1 : String, arg2 : String? = null, arg3 : String? = null) {
 // Computation Here
 }
 ``` 
@@ -99,25 +99,25 @@ fun Constructor(arg1 : String, arg2 : String? = null, arg3 : String? = null) {
 So, you'll be able to call the `Constructor` function with:
 
 ```kotlin
-Constructor("abc")
-Constructor("abc", "def")
-Constructor("abc", "def", "hij")
+constructor("abc")
+constructor("abc", "def")
+constructor("abc", "def", "hij")
 ```
 
 As you may notice, this can be confusing, as the parameters all are strings, named `arg..`. Kotlin provide a syntax 
 helper that give you the ability to name arguments in the function call:
 
 ```kotlin
-Constructor(arg1 = "abc")
-Constructor(arg1 = "abc", arg2 = "def")
-Constructor(arg1 = "abc", arg2 = "def", arg3 = "hij")
+constructor(arg1 = "abc")
+constructor(arg1 = "abc", arg2 = "def")
+constructor(arg1 = "abc", arg2 = "def", arg3 = "hij")
 ```
 
 > If you name one argument, you need to name all the others
 
 #### Variable number of arguments
 
-If you don't how much arguments will be passed to a function, you can use the `vararg` keyword. That allows you to 
+If you don't how many arguments will be passed to a function, you can use the `vararg` keyword. This allows you to 
 define a variable number of parameters, with the same type.  
 
 You can also pass an array to a `vararg` argument, with the `*` notation.
@@ -160,4 +160,4 @@ fun main(args: Array<String>) {
 }
 ```
 
-This was the basics about functions in Kotlin. Now we'll some really nice features.
+This was the basics about functions in Kotlin. Now we'll continue to learn some really nice features.
