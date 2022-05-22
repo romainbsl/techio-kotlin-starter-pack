@@ -2,11 +2,11 @@
 
 A feature that makes Kotlin more valuable is its type system, and the management of nullability.
 
-Kotlin help you to avoid the in-famous NPE (`NullPointerException`). You have to understand that 
+Kotlin helps you to avoid the infamous NPE (`NullPointerException`). You have to understand that 
 you may have NPE, even with Kotlin, but this will happen if you don't make enough effort.
 Kotlin will help you think about how you code in a good way.
 
-In Kotlin, each type is consider `non-null`, but each of those types have a derived type nullable. Nullable types 
+In Kotlin, each type is considered `non-null`, but each of those types have a derived type nullable. Nullable types 
 are followed by the `?` character. For example, a `non-null` string will be written `String` and a nullable one will be 
 `String?`.
 
@@ -91,7 +91,7 @@ person.address?.street ?: throw IllegalStateException("For shipping purpose, the
 
 ##### The `let` function
 
-The `let` function help you deals with not null values. Precede by the safe-call (`?.`), it can help you manipulate 
+The `let` function help you deals with not null values. Preceded by the safe-call (`?.`), it can help you manipulate the 
 values inside a lambda like:
 
 ```kotlin
@@ -99,7 +99,7 @@ values inside a lambda like:
 person.address?.let { it.city.toUpperCase() }
 ```
 
-So we could write the following extension function to get the shipping address for a Person:
+So we could write the following extension function to get the shipping address of a Person:
 
 ``` kotlin runnable
 // { autofold
