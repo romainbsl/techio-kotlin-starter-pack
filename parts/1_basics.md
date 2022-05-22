@@ -249,7 +249,7 @@ collection with indexes:
 fun main(args: Array<String>) {
 //}
 val animals = listOf("dog", "cat", "snake")
-for ((animal, index) in animals.withIndex()) {
+for ((index, animal) in animals.withIndex()) {
   println("animal at $index is $animal")
 }
 // { autofold
@@ -259,7 +259,7 @@ for ((animal, index) in animals.withIndex()) {
 
 #### While loops
 
-`while` works as in many languages
+`while` works the same as in many languages
 
 ``` kotlin runnable
 // { autofold
